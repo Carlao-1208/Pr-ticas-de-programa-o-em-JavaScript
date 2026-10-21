@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> estruturas de condição</title>
+
+        <script>
+
+            const n1 = Number(prompt("Digite a nota 1"))
+            const n2 = Number(prompt("Digite a nota 2"))
+            const n3 = Number(prompt("Digite a nota 3"))
+            const n4 = Number(prompt("Digite a nota 4")) 
+
+            const media = (n1 + n2 + n3 + n4) / 4
+
+            console.log( "A média é: " +  media )
+            //const media = Soma / 4 
+            
+            // ou const media = (n1 + n2 + n3 + n4) / 4
+            //
+            if(media >= 7){
+                console.log("Aprovado!")
+            }else if (media < 5){
+                console.log("Reprovado: :(")
+            } else{
+                console.log("Recuperação. Estude mais para passar.")
+            }
+            
+
+            console.log("A média final é:" +  media )
+        </script>
+
+    </head>
+    <body>
+
+    </body>
+</html>

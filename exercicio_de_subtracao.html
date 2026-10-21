@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8" />
+
+        <script>
+            function subtrair (){
+                
+                 const n1 = document.getElementById("n1").value
+                 const n2 = document.getElementById("n2").value
+
+           const subtrair = Number(n1) - Number(n2)
+          
+
+           const resultado = document.getElementById("resultado")
+           
+           resultado.innerHTML = "A subtracao dos números é: " + subtrair
+            }
+
+        </script>
+    </head>
+    <body>
+       
+        <form action= "">
+            n1: <input type="text" id="n1"/><br>
+            n2: <input type="text" id="n2"/><br>
+
+            <input type="button" value="subtrair" onclick="subtrair()" >
+            
+
+            <h1 id = "resultado"> A resultado da subtrair é :</h1>
+
+            
+        </form>
+    </body>
+</html>
