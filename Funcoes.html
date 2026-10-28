@@ -5,88 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Funcoes</title>
 
-    <script>
-
-        function Somar(){ 
-            
-                
-            const n1 = document.getElementById("n1").value
-            const n2 = document.getElementById("n2").value
-
-            const Somar = Number(n1) + Number(n2)
-          
-
-           const resultado = document.getElementById("resultado")
-           
-           resultado.innerHTML = "A soma dos números é: " + Somar
-
-        }
-
-        function Subtrair(){
-            
-                
-            const n1 = document.getElementById("n1").value
-            const n2 = document.getElementById("n2").value
-
-            const Subtrair = Number(n1) - Number(n2)
-          
-
-           const resultado = document.getElementById("resultado")
-           
-           resultado.innerHTML = "A subtração dos números é: " + Subtrair
-
-        }
-
-        function Multiplicar(){
-            
-                
-            const n1 = document.getElementById("n1").value
-            const n2 = document.getElementById("n2").value
-
-            const Multiplicar = Number(n1) * Number(n2)
-          
-
-           const resultado = document.getElementById("resultado")
-           
-           resultado.innerHTML = "A multiplicação dos números é: " + Multiplicar
-        }
-
-        function Dividir(){
-            
-                
-            const n1 = document.getElementById("n1").value
-            const n2 = document.getElementById("n2").value
-
-           const Dividir = Number(n1) / Number(n2)
-          
-
-           const resultado = document.getElementById("resultado")
-           
-           resultado.innerHTML = "A divisão dos números é: " + Dividir
-        }
-    
-        
-        
-
-       
-
-        
-
-    </script>
+    <script type="  text/javascript" src="js/funcoes.js"></script>
 </head>
 <body>
     
          n1: <input type="text" id="n1"/><br>
          n2: <input type="text" id="n2"/><br>
 
-         <input type="button" value="Somar" onclick="Somar()" >
-         <input type="button" value="subtrair" onclick="Subtrair()" >
-         <input type="button" value="multplicar" onclick="Multiplicar()" >
-         <input type="button" value="dividir" onclick="Dividir()" >
+         <input type="button" value="Somar" onclick="calcular('+')" >
+         <input type="button" value="subtrair" onclick="calcular('-')" >
+         <input type="button" value="multplicar" onclick="calcular('*')" >
+         <input type="button" value="dividir" onclick="calcular('/')" >
             
 
            
-         <h1 id = "resultado"> A resultado da subtrair é :</h1>
+         <h1 id = "resultado"> A resultado é:</h1>
          
      
 </body>
