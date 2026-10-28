@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt" - br>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funcoes</title>
-
-    <script type="  text/javascript" src="js/funcoes.js"></script>
-</head>
-<body>
-    
-         n1: <input type="text" id="n1"/><br>
-         n2: <input type="text" id="n2"/><br>
-
-         <input type="button" value="Somar" onclick="calcular('+')" >
-         <input type="button" value="subtrair" onclick="calcular('-')" >
-         <input type="button" value="multplicar" onclick="calcular('*')" >
-         <input type="button" value="dividir" onclick="calcular('/')" >
+<html>
+    <head>
+        <title> Funções</title>
+        <meta charset=""utf-8>
+        <script type="text/javascript" src="js/funcoes.js"></script>
+    </head>
+    <body>
+        <form action="">
             
+            n1: <input type="text" id="n1" /><br>
+            n2: <input type="text" id="n2" /><br>
 
-           
-         <h1 id = "resultado"> A resultado é:</h1>
-         
-     
-</body>
+            <input type="button" value="Somar" onclick="calcular('+')">
+            <input type="button" value="Subtrair" onclick="calcular('-')">
+            <input type="button" value="Multiplicar" onclick="calcular('*')">
+            <input type="button" value="Dividir" onclick="calcular('/')">
+
+            <h1 id="resultado">o resultado é</h1>
+        </form>
+    </body>
 </html>
