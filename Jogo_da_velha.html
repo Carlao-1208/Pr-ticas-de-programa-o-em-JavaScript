@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Velha</title>
+    <script src="js/Jogo_da_velha.js"></script>
+</head>
+<body onload="iniciar()">
+    <div id="board"></div>
+
+    <br>
+
+    <label for="linha">Linha:</label>
+    <input type="number" min="1" max="3" id="linha">
+
+    <br>
+
+    <label for="coluna">Coluna:</label>
+    <input type="number" min="1" max="3" id="coluna">
+
+    <br>
+
+    <button onclick="jogar()">Marcar</button>
+
+    <div id="aviso">Vez do jogador 1</div>
+</body>
+</html>
