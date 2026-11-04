@@ -1,0 +1,24 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgba(255, 255, 255);
+    border: #b92222 dashed 5px;
+    margin: 30px 0px 30px 0px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: #040b0fd7;
+    color: #c9090900;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.destaque{
+    color:#dd0b0b;
+    font-weight: bold;
+}
