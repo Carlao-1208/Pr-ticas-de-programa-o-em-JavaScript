@@ -13,12 +13,25 @@ h1{
 
 footer{
     background-color: #040b0fd7;
-    color: #c9090900;
+    color:  #dae1e491;
     padding: 20px;
     text-align: center;
-    padding: 20px;
 }
 .destaque{
     color:#dd0b0b;
     font-weight: bold;
+}
+
+.quantity-controls{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.quantity-controls button{
+    line-height: 1;
+}
+
+.quantity-controls button:disabled{
+    cursor: not-allowed;
 }
